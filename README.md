@@ -17,13 +17,10 @@ user = models.ForeignKey(User,on_delete=models.CASCADE)
 
 
 7. Run the server by typing the command in terminal
+   python manage.py runserver
 
-python manage.py runserver
 
-
-8. After running server just click below link one by one
-you and fill the informations and see the demo
-
+8. After running server just click below link one by one you and fill the informations and see the demo
 ● http://127.0.0.1:8000/home/register/
 
 9. Above link redirect you to profile page then to fill the information about you and your research projects,qualifications teaching courses ,your works etc using the appropriate below links
