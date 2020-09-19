@@ -9,10 +9,15 @@ Framework : Django framework
 4. They can fill about themselves, teaching/courses, Publications, Work and experince, Conatcts, Reseach areas ,etc.
 5. They can also update their informations.
 6. Some urls by entering those urls you can see demo.
+
 Note :- this project is for django version less than 2;
+
 if you are using django version greater than 2 then replace this line
+
 user = models.ForeignKey(User)
+
 by below line in each models
+
 user = models.ForeignKey(User,on_delete=models.CASCADE)
 
 
