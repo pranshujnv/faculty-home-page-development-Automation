@@ -3,21 +3,20 @@ Topic : Intelligent Web Development
 Specification:
 
 Framework : Django framework
-It is an website model for college faculty.
-They register themselves first. After that they can fill theirs
-information after filling the information their own page will be rady.
-They can fill about themselves, teaching/courses, Publications, Work
-and experince, Conatcts, Reseach areas ,etc.
-They can also update their informations.
-Some urls by entering those urls you can see demo
+1. It is an website model for college faculty.
+2. They register themselves first.
+3. After that they can fill theirs information. After filling the information their own page will be ready.
+4. They can fill about themselves, teaching/courses, Publications, Work and experince, Conatcts, Reseach areas ,etc.
+5. They can also update their informations.
+6. Some urls by entering those urls you can see demo
 Note :- this project is for django version less than 2;
-if you are usinh django version greater than 2 then replace this line
+if you are using django version greater than 2 then replace this line
 user = models.ForeignKey(User)
 by below line in each models
 user = models.ForeignKey(User,on_delete=models.CASCADE)
 
 
-Go to dirctory IWDproject.
+Go to directory IWDproject.
 the run the server by typig the command in terminal
 
 python manage.py runserver
