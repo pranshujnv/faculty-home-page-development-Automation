@@ -21,16 +21,19 @@ user = models.ForeignKey(User,on_delete=models.CASCADE)
 
 
 8. After running server just click below link one by one you and fill the informations and see the demo
+
 ● http://127.0.0.1:8000/home/register/
 
 9. Above link redirect you to profile page then to fill the information about you and your research projects,qualifications teaching courses ,your works etc using the appropriate below links
 
-10.fill your information about you using the below url after getting logged in
+10. Fill your information about you using the below url after getting logged in
+
 http://127.0.0.1:8000/home/portal/home/
 
 11. It will redirect you to profile page where you will get your own input information with beautifull layout.
 
 12. fill the teaching details in teaching form by using below link
+
 http://127.0.0.1:8000/home/portal/teaching/
 it will redirect you to profile page then click on teaching button then yu will get your teaching page with input information
 
