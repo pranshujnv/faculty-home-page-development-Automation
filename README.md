@@ -1,6 +1,5 @@
 # faculty-home-page-development-Automation
 Topic : Intelligent Web Development
-
 Specification:
 
 Framework : Django framework
